@@ -1,23 +1,15 @@
-// let name = 'John'; 
-// let age = 21;
-let person = {
-    // object literal
-    name: 'John',
-    age: 21
-};
-console.log(person);
+let choices = ['Android', 'Apple']; // Array literal
+console.log(choices);
 
-// Change name of the person //
+// Accessing the first element in choices array
+console.log(choices[0]);
 
-// Method 1: Dot Notation (Default)
-person.name = 'Alexander'
-console.log(person.name);
+// Accessing the second element in choices array
+console.log(choices[1]);
 
-// Method 2: Bracket Notation
-person['name'] = 'Jack Sparrow'
-console.log(person.name);
+// Appending to an array
+choices[2] = 'Custom';
+console.log(choices);
 
-// Method 2: Example where/how it can be used
-let gen = 'name'
-person[gen] = 'Joe'
-console.log(person.name);
+// Finding the number of items/elements in our array
+console.log(choices.length);
