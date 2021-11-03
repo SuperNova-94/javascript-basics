@@ -1,15 +1,26 @@
-let choices = ['Android', 'Apple']; // Array literal
-console.log(choices);
+function greeting() {
+    console.log('Bienvenue');
+}
+greeting(); // function call
 
-// Accessing the first element in choices array
-console.log(choices[0]);
+// Functions below are all performing a task //
+// Example 1:
+function greet(name){
+    console.log('Hello' + ' ' + name);  // + concatinates
+}
+let input = prompt('Enter your name');
+greet(input);
 
-// Accessing the second element in choices array
-console.log(choices[1]);
+// Example 2:
+function welcome(firstName, lastName) {
+    console.log('Hello' + ' ' + firstName + ' ' + lastName);
+}
+let a = prompt('Enter your first name');
+let b = prompt('Enter your last name');
+welcome(a,b);
 
-// Appending to an array
-choices[2] = 'Custom';
-console.log(choices);
-
-// Finding the number of items/elements in our array
-console.log(choices.length);
+// Example 2: Without getting input from the user
+function simple(x, y) {
+    console.log(x + ' ' + y + ' just joined this server!');
+}
+simple('James', 'Nikolas');
