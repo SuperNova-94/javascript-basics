@@ -3,7 +3,7 @@
         Operators Variables --> Expressions --> Algorithms
             Types:
                 Arithmetic ✔
-                Assignment  
+                Assignment  ✔
                 Comparison
                 Logical
                 Bitwise
@@ -29,3 +29,12 @@ console.log(y); // Displays the incremented value of y
 // Decrement (--)
 console.log('x is: ' + x);
 console.log('x is now: ' + --x);
+
+// Assignment //
+let x = 20;
+
+x = x + 5; 
+x += 5; // Alternative to line 36
+
+x = x * 3;
+x *= 3; // Alternative to line 39
